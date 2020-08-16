@@ -43,7 +43,7 @@ public class HistoriaClinica {
 
     @Override
     public String toString() {
-        return "Fecha Hospitalizacion=" + FechaHospitalizacion + "Medico encargado:" + Medicoencargado.getNombre() + "\n Descripcion=" + Descripcion ;
+        return "Fecha Hospitalizacion=" + FechaHospitalizacion + "Medico encargado:" + Medicoencargado.getNombre() + "\n Descripcion=" + Descripcion +"\n";
     }
     
     

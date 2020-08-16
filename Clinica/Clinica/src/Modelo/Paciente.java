@@ -49,6 +49,7 @@ public class Paciente extends Persona {
         
         this.historiaclinica.add(historiaclinica);
     }
+    @Override
     public String toString(){
         
         String mensaje="";
