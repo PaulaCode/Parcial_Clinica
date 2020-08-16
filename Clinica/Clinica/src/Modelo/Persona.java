@@ -5,10 +5,6 @@
  */
 package Modelo;
 
-/**
- *
- * @author frealgagu
- */
 public class Persona {
     
 }
