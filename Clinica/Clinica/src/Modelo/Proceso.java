@@ -18,7 +18,7 @@ public class Proceso {
         int clave;
         do{
             opc=ioData.solicitarEntero("1.Cambiar clave "+
-                                   "2.Atender paciente "   );
+                                   "2.Atender paciente ");
         switch(opc){
             case 1:
                clave=ioData.solicitarEntero("Ingrese la clave del personal de medicina: ");
@@ -31,7 +31,13 @@ public class Proceso {
                 break;
                 
             case 2:
-                
+                if (hospitalproceso.getPacientes()== null){
+              
+                    ioData.mostrarResultado("No hay pacientes en lista de espera.");
+                }else{
+                    
+                    
+                }
                 
                 
                 
